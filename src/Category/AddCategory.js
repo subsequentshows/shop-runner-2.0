@@ -61,7 +61,7 @@ export default class AddCategory extends React.Component{
                             </div>
                             <div className="form-group">
                                 <label>Image</label>
-                                <input name="image"type="file"   id ='file-id' onChange={this.handleChange} value={category.image} className="form-control"/>
+                                <input name="image" type="file"   id ='file-id' onChange={this.handleChange} value={category.image} className="form-control"/>
                             </div>
                             <div className="form-group">
                                 <label>Description</label>
