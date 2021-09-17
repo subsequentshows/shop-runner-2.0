@@ -1,0 +1,127 @@
+@import url('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
+
+
+body {
+  // background-color: unset;
+  font-size: 16px;
+  color: white;
+  line-height: 26px;
+}
+
+.button:hover {
+  background-color: (var(206, 4%, 8%));
+  color: white;
+}
+
+.main-sidebar {
+  display: none !important;
+}
+
+h2 {
+  color: white;
+}
+
+.content-wrapper {
+  background-color: unset;
+  height: auto;
+  margin-left: 0 !important;
+
+  .content {
+    height: 40px;
+    // background-color: black;
+    padding: 0;
+
+    .container-fluid {
+      height: 100%;
+
+      nav {
+        height: 100%;
+        ul.switch-tab {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0;
+          height: 100%;
+          bottom: 0;
+          left: 50%;
+          li {
+            width: 33.3333%;
+            a {
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer__container {
+  max-width: 1200px;
+  .footer__logo {
+    width: 100%;
+  }
+
+  .footer__content {
+    text-align: left;
+
+    &:nth-child(2n + 0) {
+      padding-left: 30px;
+    }
+  }
+}
+
+.products__img {
+  top: -4.2rem;
+  @media screen and (min-width: 767px) {
+    // width: 95px;
+    width: 130px;
+  }
+}
+
+.nav__logo {
+  @media screen and (min-width: 767px) {
+    width: 12rem;
+  }
+}
+
+.specs__img {
+  @media screen and (min-width: 767px) {
+    width: 503px;
+  }
+}
+
+.section__title-gradient {
+  max-width: 1000px;
+  line-height: 70px;
+  margin-bottom: 50px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home__subtitle {
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.home__img {
+  @media screen and (min-width: 1024px) {
+    width: 500px;
+    top: 50px;
+    left: 0px;
+  }
+}
+
+.case__container {
+  @media screen and (min-width: 767px) {
+    column-gap: 2rem;
+  }
+}
+
+.nav-sidebar {
+  width: 100%;
+  max-width: 230px;
+  display: flex;
+  flex-wrap: nowrap;
+  .nav-item {
+    text-align: left;
+  }
+}
