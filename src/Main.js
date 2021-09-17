@@ -35,13 +35,17 @@ export default class Main extends React.Component {
                   <Link to="/Home">Home Page</Link>
                 </li>
                 <li>
-                  <Link to="/About">About</Link>
+                  <Link to="/About">Our Product</Link>
                 </li>
                 <li>
                   <Link to="/Users">Users</Link>
                 </li>
+                <li>
+                  <Link to="/Products">Products</Link>
+                </li>
               </ul>
             </nav>
+
             <Switch>
               <Route path="/categories" exact>
                 <Categories />
