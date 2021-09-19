@@ -1,3 +1,8 @@
+Sau khi clone project về mở terminal lên bằng Ctrl + ~ rồi chạy những câu lệnh sau:
+1. npm install
+2. npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
