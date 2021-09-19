@@ -63,11 +63,11 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	margin: var(--header-height) 0 0 0;
-	font-family: var(--body-font);
-	font-size: var(--normal-font-size);
-	background-color: var(--body-color);
-	color: var(--text-color);
+	// margin: var(--header-height) 0 0 0;
+	font-family: var(--body-font) !important;
+	font-size: var(--normal-font-size) !important;
+	background-color: var(--body-color) !important;
+	color: var(--text-color) !important;
 }
 h1 {
 	color: var(--title-color);

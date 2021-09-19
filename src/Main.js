@@ -15,8 +15,13 @@ import EditProduct from "./Product/EditProduct";
 import UserPage from "./Pages/UserPage";
 import AboutPage from "./Pages/AboutPage";
 import HomePage from "./Pages/HomePage";
+import Dropdown from 'react-bootstrap/Dropdown';
 
+
+import "./assets/css/bootstrap.min.css";
 import "./assets/css/common.css";
+
+import "./assets/js/main.js";
 
 export default class Main extends React.Component {
   render() {

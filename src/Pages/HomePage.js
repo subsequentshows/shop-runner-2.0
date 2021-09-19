@@ -4,7 +4,7 @@ import { APIC } from "../API/APIC";
 import { Redirect } from "react-router-dom";
 import { render } from "@testing-library/react";
 import Header from "../Components/Header";
-// import Body from "../Components/Body.js";
+import Body from "../Components/Body";
 import Footer from "../Components/Footer";
 // import HomeSection from "../Components/HomeSection";
 
@@ -17,7 +17,7 @@ export default class Home extends React.Component {
       <>
         <Header />
 
-        {/* <Body /> */}
+        <Body />
 
         {/* <HomeSection /> */}
         {/* <SpecSection />

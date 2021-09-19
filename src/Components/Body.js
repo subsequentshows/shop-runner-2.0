@@ -1,4 +1,10 @@
 import React from "react";
+import image1 from "../assets/img/product-top-2.png";
+import image2 from "../assets/img/product-hight-light.png";
+
+import image3 from "../assets/img/product-width-box.png";
+import image4 from "../assets/img/Product-2.png";
+import image5 from "../assets/img/Product-3.png";
 
 export default class Body extends React.Component {
   render() {

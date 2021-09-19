@@ -1,6 +1,5 @@
 import React from "react";
-import logo from'../assets/img/shop-runner-logo-2.png';
-
+import logo from "../assets/img/shop-runner-logo-2.png";
 
 export default class Footer extends React.Component {
   render() {
@@ -97,6 +96,10 @@ export default class Footer extends React.Component {
             </a>
           </p>
         </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
       </>
     );
   }
